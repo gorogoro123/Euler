@@ -7,4 +7,4 @@ for i in 0 ... 1000
 	end
 end
  
-print sum
+puts sum
