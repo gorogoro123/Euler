@@ -2,9 +2,9 @@
 
 max = 0
 
-for x in 100 .. 999
-	for x in 100 .. 999
-		val = x * y
+for i in 100 .. 999
+	for j in 100 .. 999
+		val = i * j
 
 		if val.to_s == val.to_s.reverse and val > max
 			max = val
