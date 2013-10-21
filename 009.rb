@@ -8,8 +8,8 @@ for a in 0 ... 1000
 				break
 			elsif (sum == 1000)
 				if (a * a + b * b == c * c)
-					printf("a = %d, b = %d, c = %d\n", a, b, c);
-					printf("abc = %d\n", a * b *  c);
+					printf("a = %d, b = %d, c = %d\n", a, b, c)
+					printf("abc = %d\n", a * b *  c)
 				end
 			end
 		end

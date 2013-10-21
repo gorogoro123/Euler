@@ -23,4 +23,4 @@ for i in 0 .. array.size - 1
 	sum += array[i]
 end
 
-printf("sum = %d\n", sum );
+printf("sum = %d\n", sum )
