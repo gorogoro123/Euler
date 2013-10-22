@@ -2,16 +2,16 @@
 
 max = 2000000
 
-array = Array.new()
-array.push(2)
+ary = Array.new()
+ary.push(2)
 
 for i in 3 .. max
 	i_sq = Math.sqrt(i).to_i
-	for j in 0 .. array.size - 1
-		if i % array[j] == 0
+	for j in 0 .. ary.size - 1
+		if (i % ary[j]) == 0
 			break
-		elsif i_sq < array[j]
-			array.push(i)
+		elsif i_sq < ary[j]
+			ary.push(i)
 #			puts i
 			break
 		end
@@ -19,8 +19,8 @@ for i in 3 .. max
 end
 
 sum = 0
-for i in 0 .. array.size - 1
-	sum += array[i]
+for i in 0 .. ary.size - 1
+	sum += ary[i]
 end
 
 printf("sum = %d\n", sum )
