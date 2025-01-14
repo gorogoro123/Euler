@@ -9,6 +9,7 @@ import math
 def cal_divisor(n):
     res = [ 1 ]
     max = int(math.sqrt(n))
+#    max = math.isqrt(n)
     for i in range(2, max + 1):
         if n % i == 0:
             res.append(i)
