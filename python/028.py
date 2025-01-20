@@ -5,6 +5,9 @@ import math
 import sys
 import csv
 
+from common.util import checktime
+
+@checktime
 def sub(size):
     num = 1
     ans = 1
